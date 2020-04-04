@@ -88,6 +88,7 @@ class _CustomListViewState extends State<CustomListView> {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
+      backgroundColor: CupertinoColors.white,
       navigationBar: CupertinoNavigationBar(
         border: Border.all(
           style: BorderStyle.none,
